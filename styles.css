@@ -5,7 +5,11 @@
     text-decoration:none;
     list-style:none;
 }
-
+/* .logo{
+    font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
 html{
     font-size:62.5%;
     scroll-behavior:smooth;
@@ -322,12 +326,14 @@ footer p{
     }
 
 }
-contact-text{
-    margin-top:2rem;
-    font-size:1.8rem;
-    color:var(--text-light);
-    line-height:1.8;
-    max-width:550px;
+.contact-text{
+    max-width: 750px;
+    margin: 2.5rem auto 5rem;
+    font-size: 2rem;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #444;
+    text-align: center;
 }
 
 @media(max-width:600px){
