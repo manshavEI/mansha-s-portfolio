@@ -1,82 +1,43 @@
-# 👋 Hi, I'm Mansha Verma
+# Mansha Verma's Portfolio
 
-A responsive developer portfolio showcasing my projects, technical skills, internship experience, and software development journey.
----
+A responsive React portfolio showcasing projects, technical skills, and Mansha's
+software development journey.
 
-## Features
+## Built with
 
-- Responsive Design
-- Modern UI
-- Smooth Navigation
-- Animated Hero Section
-- Skills Showcase
-- Project Gallery
-- Internship Experience
-- Contact Section
-- Social Links
-
----
-
-## Built With
-
-- HTML5
-- CSS3
+- React
+- Vite
 - JavaScript
+- CSS
 
----
+## Project structure
 
-## Sections
-
-- Home
-- About
-- Skills
-- Projects
-- Contact
-
----
-
-## Featured Projects
-
-- YouTube Toxic Comment Analyzer
-- Healthy Bharat Research
-- AI Task Manager
-- Personal Portfolio
-
----
-
-## Future Improvements
-
-- Dark Mode
-- Contact Form Backend
-- Project Filtering
-- Blog Section
-- Admin Dashboard
-- Visitor Analytics
-
----
-
-## Getting Started
-
-Clone the repository
-
-```bash
-git clone https://github.com/manshavEI/mansha-s-portfolio.git
+```text
+src/
+├── components/       Reusable page sections
+├── data/             Portfolio content and links
+├── hooks/            React behavior such as the typewriter effect
+├── App.jsx           Page composition
+├── main.jsx          React application entry point
+└── styles.css        Shared responsive styling
 ```
 
-Open
+## Run locally
+
+Install the dependencies:
 
 ```bash
-index.html
+npm install
 ```
 
-or use Live Server.
+Start the development server:
 
----
+```bash
+npm run dev
+```
 
-## Contact
- 
-LinkedIn: https://www.linkedin.com/in/mansha-verma14
+Create a production build:
 
-GitHub: https://github.com/manshavEI
-
-Email: vermamansha75@gmail.com
+```bash
+npm run build
+```
