@@ -22,10 +22,6 @@ function Hero() {
             <i className="bx bx-map" aria-hidden="true" />
             Based in India
           </span>
-          <span>
-            <i className="bx bx-world" aria-hidden="true" />
-            Open to remote work
-          </span>
         </div>
         <p className="eyebrow">
           <span aria-hidden="true">✦</span> Hello, I&apos;m
